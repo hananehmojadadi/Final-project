@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="My personal Hub">
+        <meta name="author" content="Hananeh Mojadadi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Gallery</title>
+        <style>
+            form
+            {
+                width:50%;
+              margin-right:auto;
+              margin-left: auto;
+              background-color:white;
+            }
+        </style>
+    </head>
+    <body style="background-color: lightblue;">
+        <!--Image part-->
+        <h1 style=" text-align: center;">My Favorite Jobs</h1>
+        <img src="web.jpg.jpg" alt="" width="300" height="300">
+        <img src="graphic.jpg.jpg" alt="" width="300" height="300">
+        <img src="flight-att.jpg.jpg" alt="" width="300" height="300">
+        <img src="flight.jpg.jpg" alt="" width="300" height="300"><br><br>
+        <!--Form part-->
+        <h2 style="text-align:center">Your Feedback</h2>
+        <form action="mailto:hananah2003@gmail.com" method="post" ; width:50%;">
+           <fieldset>
+             <table border="1" style="margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td width="250">First name</td>
+                    <td width="450"><input type="text" name="firstname" required maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" name="lastname" required max="10"></td>
+                </tr>
+                <tr>
+                    <td> Email address</td>
+                    <td><input type="email" name="email" required placeholder="hananah201@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Phone number</td>
+                    <td><input type="number" name="number" required></td>
+                </tr>
+                <tr>
+                    <td>Your Comment</td>
+                    <td ><textarea name="message" rows="5" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Submit</button>
+                    <input type="reset">
+                    </td>
+                </tr>
+             </table>
+             
+           </fieldset>
+        </form>
+        <br><br>
+        <footer>
+            <div style="text-align: center;">
+                <a href="index.html"> Back to Home Page</a>
+            </div><br><br>
+        </footer>
+    </body>
+</html>

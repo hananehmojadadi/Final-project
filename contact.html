@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="My personal Hub">
+        <meta name="author" content="Hananeh Mojadadi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Information to contact</title>
+        <style>
+          form {
+          width:40%;
+          margin-left:auto;
+          margin-right:auto;
+          background-color:white;
+          }
+        </style>
+    </head>
+    <body style="background-color: rgb(182, 202, 209);">
+      <!--Form Part-->
+        <form action="mailto:hananah2003@gmail.com" method="post">
+          <fieldset>
+            <legend><strong>Contact With Me</strong></legend>
+            <label>First Name:</label><br>
+            <input type="text" required maxlength="10"><br>
+            <label>Last name:</label><br>
+            <input type="text" maxlength="10" required><br>
+            <label>Email address:</label><br>
+            <input type="email" placeholder="Hananeh201@gmail.com" required><br>
+            <label>Phone number:</label><br>
+            <input type="number" required><br>
+
+            <h4><b>Gender</b></h4>
+            <label for="M">Male</label>
+            <input type="radio" name="Gender" value="male" id="M" required><br>
+            <label for="F">Female</label>
+            <input type="radio" name="Gender" value="female" id="F" required><br>
+            <h4><b>Services</b></h4>
+            <label for="W">Web Design</label>
+            <input type="checkbox" name="box 1" value="Designing" id="W" required><br>
+            <label for="G">Graphic Design</label>
+            <input type="checkbox" name="box2" value="Designer" id="G" required><br>
+
+            <h4>Your Satisfaction</h4>
+            <input type="range"  value="select" required><br>
+            <h4>Your Comment</h4>
+            <textarea name="message" rows="5" cols="40"></textarea><br>
+            <input type="submit" name="button" value="submit">
+            <input type="reset" value="reset">
+          </fieldset>
+        </form>
+    </body>
+</html>
